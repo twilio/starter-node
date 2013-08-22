@@ -1,4 +1,3 @@
-starter-node
-============
+# Welcome to the JavaScript (node.js) Guild!
 
-A starter app for node.js developers embarking on their first Twilio quest!
+More instructions on how to use this repo are comign soon.

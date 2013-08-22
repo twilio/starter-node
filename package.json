@@ -1,0 +1,27 @@
+{
+  "name": "starter-node",
+  "version": "0.0.0",
+  "description": "A starter application for TwilioQuest, written in node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twilio/starter-node.git"
+  },
+  "keywords": [
+    "twilio",
+    "node"
+  ],
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twilio/starter-node/issues"
+  },
+  "dependencies": {
+    "express": "~3.3.5",
+    "twilio": "~1.1.4",
+    "ejs": "~0.8.4"
+  }
+}
