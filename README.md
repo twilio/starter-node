@@ -1,3 +1,9 @@
+> # :warning: Important :warning:
+> This repository is deprecated at the moment.
+> Please check out the [Twilio Docs](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node) for a set of getting started guides for now.
+>
+> :books: https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node
+
 # Welcome to the JavaScript Guild!
 
 As members of the JavaScript guild, you will be working through the challenges of TwilioQuest using server-side JavaScript, specifically [node.js](http://www.nodejs.org).  This project is pre-configured to do some interesting Twilio stuff using node.js and the [Express](http://expressjs.com/) web framework.
@@ -32,9 +38,9 @@ You will first need to install the application's dependencies.  You can do this 
 
     npm install
 
-Now, you should be able to launch the application.  From your terminal, run `node app.js`.  This should launch your Express application on port 3000 - [visit that URL on your local host](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide.  The web UI should look something like this:
+Now, you should be able to launch the application.  From your terminal, run `node app.js`.  This should launch your Express application on port 3000 - [visit that URL on your local host](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide. 
 
-![node ui](http://demo.kevinwhinnery.com/upload/Welcome_to_the_JavaScript_Guild%21-20130827-144946.png)
+
 
 If your phone receives both a call and text message, you're good to go!
 
