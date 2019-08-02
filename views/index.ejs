@@ -8,12 +8,14 @@
     <!-- A little CSS to make our page prettier -->
     <link href="//fonts.googleapis.com/css?family=Press+Start+2P" 
         rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/app.css"/>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
 
     <!-- Include jQuery to help us with some UI stuff -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- A simple UI to test our Twilio back end -->
@@ -24,7 +26,7 @@
         </div>
 
         <div id="welcome">
-            <img src="/javascript_shield256.png" alt="JavaScript Shield"/>
+            <img src="/images/javascript_shield256.png" alt="JavaScript Shield"/>
             <h1><span>JavaScript</span> Guild</h1>
             <p>
                 Welcome to the JavaScript Guild! Join your fellow JavaScripters
@@ -57,16 +59,16 @@
         </form>
     </div>
     <div id="footer">
-        <span>Twilio</span><img src="/TwilioQuest32.png" alt="TwilioQuest"/>Quest
+        <span>Twilio</span><img src="/images/TwilioQuest32.png" alt="TwilioQuest"/>Quest
         <p>
-            Made with <img src="/heart.gif" alt="heart"> by your pals 
+            Made with <img src="/images/heart.gif" alt="heart"> by your pals 
             <a href="http://www.twilio.com">@twilio</a>.
         </p>
     </div>
 
     <!-- Some dirty JavaScript to help drive our UI -->
-    <script src="/js/ui.js"></script>
+    <script src="/javascripts/ui.js"></script>
     <!-- Some ajax magic to hit our back end and make calls/send messages -->
-    <script src="/js/form.js"></script>
+    <script src="/javascripts/form.js"></script>
 </body>
 </html>
