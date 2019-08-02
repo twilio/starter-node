@@ -1,9 +1,3 @@
-> # :warning: Important :warning:
-> This repository is deprecated at the moment.
-> Please check out the [Twilio Docs](https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node) for a set of getting started guides for now.
->
-> :books: https://www.twilio.com/docs/tutorials?order_by=-popularity_rank&filter-language=node
-
 # Welcome to the JavaScript Guild!
 
 As members of the JavaScript guild, you will be working through the challenges of TwilioQuest using server-side JavaScript, specifically [node.js](http://www.nodejs.org).  This project is pre-configured to do some interesting Twilio stuff using node.js and the [Express](http://expressjs.com/) web framework.
@@ -12,15 +6,15 @@ As members of the JavaScript guild, you will be working through the challenges o
 
 We assume that before you begin, you will have [node.js and npm](http://www.nodejs.org) and installed on your system.  Before you can run this project, you will need to set three system environment variables.  These are:
 
-* `TWILIO_ACCOUNT_SID` : Your Twilio "account SID" - it's like your username for the Twilio API.  This and the auth token (below) can be found [on your account dashboard](https://www.twilio.com/user/account).
-* `TWILIO_AUTH_TOKEN` : Your Twilio "auth token" - it's your password for the Twilio API.  This and the account SID (above) can be found [on your account dashboard](https://www.twilio.com/user/account).
-* `TWILIO_NUMBER` : A Twilio number that you own, that can be used for making calls and sending messages.  You can find a list of phone numbers you control (and buy another one, if necessary) [in the account portal](https://www.twilio.com/user/account/phone-numbers/incoming).
+* `TWILIO_ACCOUNT_SID` : Your Twilio "account SID" - it's like your username for the Twilio API.  This and the auth token (below) can be found [on the console](https://www.twilio.com/console).
+* `TWILIO_AUTH_TOKEN` : Your Twilio "auth token" - it's your password for the Twilio API.  This and the account SID (above) can be found [on the console](https://www.twilio.com/console).
+* `TWILIO_PHONE_NUMBER` : A Twilio number that you own, that can be used for making calls and sending messages. You can find a list of phone numbers you control (and buy another one, if necessary) [in the console](https://www.twilio.com/console/phone-numbers/incoming).
 
 For Mac and Linux, environment variables can be set by opening a terminal window and typing the following three commands - replace all the characters after the `=` with values from your Twilio account:
 
     export TWILIO_ACCOUNT_SID=ACXXXXXXXXX
     export TWILIO_AUTH_TOKEN=XXXXXXXXX
-    export TWILIO_NUMBER=+16518675309
+    export TWILIO_PHONE_NUMBER=+16518675309
 
 To make these changes persist for every new terminal (on OS X), you can edit the file `~/.bash_profile` to contain the three commands above.  This will set these environment variables for every subsequent session. Once you have edited the file to contain these commands, run `source ~/.bash_profile` in the terminal to set up these variables.
 
@@ -28,7 +22,7 @@ On Windows, the easiest way to set permanent environment variables (as of Window
 
     setx TWILIO_ACCOUNT_SID ACXXXXXXXXX
     setx TWILIO_AUTH_TOKEN XXXXXXXXX
-    setx TWILIO_NUMBER +16518675309
+    setx TWILIO_PHONE_NUMBER +16518675309
 
 ## Running the application
 
@@ -38,7 +32,7 @@ You will first need to install the application's dependencies.  You can do this 
 
     npm install
 
-Now, you should be able to launch the application.  From your terminal, run `node app.js`.  This should launch your Express application on port 3000 - [visit that URL on your local host](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide. 
+Now, you should be able to launch the application.  From your terminal, run `npm start`.  This should launch your Express application on port 3000 - [visit that URL on your local host](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide. 
 
 
 
