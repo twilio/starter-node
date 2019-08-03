@@ -32,7 +32,7 @@ You will first need to install the application's dependencies.  You can do this 
 
     npm install
 
-Now, you should be able to launch the application.  From your terminal, run `npm start`.  This should launch your Express application on port 3000 - [visit that URL on your local host](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide. 
+Now, you should be able to launch the application.  From your terminal, run `npm start`.  This should launch your Express application on port 3000 - [visit that URL on your local host at http://localhost:3000](http://localhost:3000/).  Enter your mobile number in the fields provided, and test both SMS text messages and phone calls being sent to the mobile number you provide. 
 
 
 
