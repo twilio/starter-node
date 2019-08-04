@@ -59,7 +59,7 @@ app.post('/call', function(req, res, next) {
 });
 
 // Create a TwiML document to provide instructions for an outbound call
-app.get('/hello', function(req, res, next) {
+app.post('/hello', function(req, res, next) {
   // Create a TwiML generator
   var twiml = new twilio.twiml.VoiceResponse();
   // var twiml = new twilio.TwimlResponse();
